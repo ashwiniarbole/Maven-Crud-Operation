@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "maven_hibernate_guidemo.maven_crud.Employee" table = "employee">
+     
+      <id name = "eId" type = "int" column = "emp_id"></id>
+      
+      <property name = "eName" column = "emp_name" type = "string"/>
+
+      <property name = "eAdd" column = "emp_add" type = "string"/>
+      
+   </class>
+</hibernate-mapping>
